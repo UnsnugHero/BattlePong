@@ -48,7 +48,7 @@ end
 function displayGameText()
   love.graphics.setFont(textFont)
   if gameState == 'start' then
-    love.graphics.printf('Welcome to pong! Press enter to start and to serve', 0, 20, VIRTUAL_WIDTH, 'center')
+    love.graphics.printf('Welcome to Battle Pong! Press enter to start and to serve', 0, 20, VIRTUAL_WIDTH, 'center')
   elseif gameState =='serve' then
     love.graphics.printf('Player ' .. tostring(servingPlayer) .. ' serves!', 0, 20, VIRTUAL_WIDTH, 'center')
   elseif gameState == 'done' then

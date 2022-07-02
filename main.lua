@@ -14,6 +14,7 @@ VIRTUAL_HEIGHT = 240
 PADDLE_SPEED = 200
 
 function love.load()
+	low.window.setTitle('Battle Pong');
   love.graphics.setDefaultFilter('nearest', 'nearest')
   push:setupScreen(VIRTUAL_WIDTH, VIRTUAL_HEIGHT, WINDOW_WIDTH, WINDOW_HEIGHT, {
     fullscreen = false,

@@ -68,7 +68,7 @@ end
 function love.keypressed(key)
   if key == 'escape' then
     love.event.quit()
-  elseif key == 'x' then
+  elseif key == 'lshift' then
     if gameState == 'play' then
       player1:shootLaser(1)
     end

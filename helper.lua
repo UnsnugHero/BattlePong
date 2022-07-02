@@ -105,7 +105,7 @@ function handlePlayState()
 end
 
 function handleDoneState()
-  if player1.score == 3 then
+  if player1.score == 10 then
     winningPlayer = 1
   else
     winningPlayer = 2
